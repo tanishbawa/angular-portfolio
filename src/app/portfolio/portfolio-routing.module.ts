@@ -4,7 +4,7 @@ import {
   FooterComponent,
   HomeComponent,
   NavbarComponent,
-} from './components';
+} from '../components';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 

@@ -8,7 +8,7 @@ import {
   FooterComponent,
   HomeComponent,
   NavbarComponent,
-} from './components';
+} from '../components';
 
 @NgModule({
   declarations: [
