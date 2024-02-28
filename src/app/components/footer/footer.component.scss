@@ -1,0 +1,26 @@
+.footer {
+    background-color: #6b08a6;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lobster', sans-serif;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    margin: 0px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #ffcc00;
+    cursor: pointer;
+}
