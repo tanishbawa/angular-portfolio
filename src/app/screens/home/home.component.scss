@@ -1,7 +1,7 @@
 .home-container {
   text-align: center;
   padding: 50px;
-  background-color: #c1ecff;
+  background-color: #c3c1ff;
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -29,6 +29,7 @@ p {
 
 .example-card {
   max-width: 300px;
+  background-color: white;
   transition: transform 0.6s ease; /* Add transition for smooth effect */
 }
 .example-card:hover {
@@ -49,7 +50,7 @@ p {
 
 .thumb-container {
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 .thumb-image {

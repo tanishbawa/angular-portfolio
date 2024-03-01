@@ -1,27 +1,75 @@
 <app-navbar></app-navbar>
 
 <div class="home-container">
-  <div class="main-content animate_animated animate_fadeInUp">
-    <!-- THUMB IMAGE -->
-    <div class="main-content animate_animated animate_fadeInUp">
+  <div class="main-content animate__animated animate__fadeInUp">
+    <div class="main-content animate__animated animate__fadeInUp">
       <div class="thumb-container">
         <img
-          src="../../../assets/thumb.jpg"
-          alt="Profile Image"
+          src="../assets/thumb.jpg"
+          alt="Profile image"
           class="thumb-image"
         />
       </div>
     </div>
 
-    <!-- TEXT -->
     <div class="text-container">
-      <p>Testing image</p>
+      <p>Project:1 (Portfolio Website)</p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
-        consectetur. Accusamus soluta voluptates ipsa quas, mollitia iste
-        doloremque cum asperiores expedita, ipsum quasi rerum qui! Similique
-        enim ab esse blanditiis.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
       </p>
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <div
+        id="skills-section"
+        class="skills-section animate__animated animate__fadeInUp"
+      >
+        <p style="font-size: 25px; color: #6b08a6">My Skills</p>
+      </div>
+      <div class="card-container">
+        <mat-card class="example-card animate__animated animate__fadeInUp">
+          <mat-card-header class="row align-items-center">
+            <p style="color: #6b08a6">Angular</p>
+          </mat-card-header>
+          <img mat-card-image src="../assets/thumb.jpg" alt="Image" />
+          <mat-card-content>
+            <p>Helps developers build dynamic, single-page web applications.</p>
+          </mat-card-content>
+          <button>Know More..</button>
+        </mat-card>
+
+        <mat-card class="example-card animate__animated animate__fadeInUp">
+          <mat-card-header class="row align-items-center">
+            <p style="color: #6b08a6">ReactJS</p>
+          </mat-card-header>
+          <img mat-card-image src="../assets/thumb.jpg" alt="Image" />
+          <mat-card-content>
+            <p>
+              JS library for building user interfaces, particularly for SPA's.
+            </p>
+          </mat-card-content>
+          <button>Know More..</button>
+        </mat-card>
+
+        <mat-card class="example-card animate__animated animate__fadeInUp">
+          <mat-card-header class="row align-items-center">
+            <p style="color: #6b08a6">Java</p>
+          </mat-card-header>
+          <img mat-card-image src="../assets/thumb.jpg" alt="Image" />
+          <mat-card-content>
+            <p>Java is designed to be platform-independent.</p>
+          </mat-card-content>
+          <button>Know More..</button>
+        </mat-card>
+      </div>
     </div>
   </div>
 </div>

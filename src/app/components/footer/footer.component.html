@@ -1,9 +1,9 @@
 <footer class="footer">
   <div class="footer-links">
-    <a>Home</a>
-    <a>About</a>
-    <a>Contacts</a>
-    <a>GitHub</a>
-    <a>Email</a>
+    <a (click)="onHomePress()">Home</a>
+    <a (click)="onAboutPress()">About</a>
+    <a (click)="onContactsPress()">Contacts</a>
+    <a (click)="onGithubPress()">GitHub</a>
+    <a [href]="'mailto:' + email">Email</a>
   </div>
 </footer>
